@@ -16,8 +16,9 @@
     margin-top: 20px;
 }
 
-.paragraph_element p:hover {
+.paragraph_element:hover {
     text-decoration: underline;
+    transition: 2s;
 }
 
 .paragraph_element {
@@ -25,4 +26,10 @@
     font-size: 14px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 2s;
+    text-decoration: none;
+}
+
+.href_container {
+    text-align: center;
 }
