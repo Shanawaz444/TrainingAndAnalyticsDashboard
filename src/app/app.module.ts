@@ -18,6 +18,11 @@ import { LoginpageMaincardRightComponent } from './loginpage-maincard-right/logi
 import { LoginpageMaincardRightHeadComponent } from './loginpage-maincard-right-head/loginpage-maincard-right-head.component';
 import { LoginpageMaincardRightInputsComponent } from './loginpage-maincard-right-inputs/loginpage-maincard-right-inputs.component';
 import { LoginpageMaincardRightBtnComponent } from './loginpage-maincard-right-btn/loginpage-maincard-right-btn.component';
+import { StudentDashbordComponent } from './student-dashbord/student-dashbord.component';
+import { FormsModule } from '@angular/forms';
+import { ChartsModule } from 'ng2-charts';
+import { LineGraphComponent } from './line-graph/line-graph.component';
+import { PieGraphComponent } from './pie-graph/pie-graph.component';
 
 @NgModule({
   declarations: [
@@ -36,11 +41,16 @@ import { LoginpageMaincardRightBtnComponent } from './loginpage-maincard-right-b
     LoginpageMaincardRightComponent,
     LoginpageMaincardRightHeadComponent,
     LoginpageMaincardRightInputsComponent,
-    LoginpageMaincardRightBtnComponent
+    LoginpageMaincardRightBtnComponent,
+    StudentDashbordComponent,
+    LineGraphComponent,
+    PieGraphComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule, 
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

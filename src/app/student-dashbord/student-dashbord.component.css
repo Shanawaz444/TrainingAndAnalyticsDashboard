@@ -1,0 +1,187 @@
+.student_dashbord_row{
+    display: flex;
+
+}
+.side_nav{
+    
+    width: 200px;
+    background-color: #363740;
+}
+.logo_of_student_img{
+    width: 100px;
+    height: 100px;
+}
+.logo_of_student{
+    
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.subjects{
+    padding-top: 40px;
+    color: #DDE2FF;
+    font-family: 'mulish';
+    font-size: 15px;
+    font-weight: 100;
+    
+
+
+}
+.subjects_bdr{
+    
+    border-left:white;
+    border-top:transparent;
+    border-right:transparent;
+    border-bottom:transparent;
+    border-width: 3px;
+    border-style: solid;
+    background-color:#9fa2b41e;
+    margin-right: 20px;
+    padding-left:33px ;
+    background-image: url("src/assets/images/student_sub_pic.png");
+    background-repeat: no-repeat;
+    background-position: 6%;
+    background-size: 20px;
+    background-clip: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.original_subs{
+    background-image: url("src/assets/images/subjects_pic.png");
+    background-repeat: no-repeat;
+    background-position: 6%;
+    background-size: 20px;
+    background-clip: border-box;
+    color: #DDE2FF;
+    font-family: 'mulish';
+    font-size: 13px;
+    font-weight: 100;
+    padding-left: 40px;
+}
+.subject1{
+    padding-top: 5px;
+    transition: .5s;
+}
+.subject1:hover{
+
+    transform: translateY(-2px);
+    transition: .5s;
+}
+.subject2{
+    padding-top: 5px;
+    transition: .5s;
+}
+.subject2:hover{
+
+    transform: translateY(-2px);
+    transition: .5s;
+}
+.subject3{
+    padding-top: 5px;
+    transition: .5s;
+}
+.subject3:hover{
+
+    transform: translateY(-2px);
+    transition: .5s;
+}
+.subject4{
+    padding-top: 5px;
+    transition: .5s;
+}
+.subject4:hover{
+
+    transform: translateY(-2px);
+    transition: .5s;
+}
+.subject5{
+    padding-top: 5px;
+    transition: .5s;
+}
+.subject5:hover{
+
+    transform: translateY(-2px);
+    transition: .5s;
+}
+.subject6{
+    padding-top: 5px;
+    transition: .5s;
+}
+.subject6:hover{
+
+    transform: translateY(-2px);
+    transition: .5s;
+}
+.overView{
+    font-family: 'mulish'; 
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: 800;
+}
+.Graph_card{
+    display: flex;
+}
+.parent_graph_card{
+    border-radius: 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    background-color: white;
+    
+    right: 0;
+    margin-right: 100px;
+}
+.per_mid_att{
+    display: flex;
+    margin-left: 150px;
+    font-family: 'mulish'; 
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 100;
+
+}
+.per_mid_att_part1{
+    display: flex;
+
+}
+.per_mid_att_part2{
+    display: flex;
+}
+.sem_percentage{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.mid1{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.mid2{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.attendence{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
