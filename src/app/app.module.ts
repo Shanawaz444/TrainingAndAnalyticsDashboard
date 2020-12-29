@@ -11,6 +11,13 @@ import { RegisterpageMaincardRegesterbtnComponent } from './registerpage-maincar
 import { RegisterpageMaincardLeftComponent } from './registerpage-maincard-left/registerpage-maincard-left.component';
 import { RegisterpageMaincardRightComponent } from './registerpage-maincard-right/registerpage-maincard-right.component';
 import { RegisterpageMaincardLeftcoreComponent } from './registerpage-maincard-leftcore/registerpage-maincard-leftcore.component';
+import { LoginpageComponent } from './loginpage/loginpage.component';
+import { LoginpageMaincardComponent } from './loginpage-maincard/loginpage-maincard.component';
+import { LoginpageMaincardLeftComponent } from './loginpage-maincard-left/loginpage-maincard-left.component';
+import { LoginpageMaincardRightComponent } from './loginpage-maincard-right/loginpage-maincard-right.component';
+import { LoginpageMaincardRightHeadComponent } from './loginpage-maincard-right-head/loginpage-maincard-right-head.component';
+import { LoginpageMaincardRightInputsComponent } from './loginpage-maincard-right-inputs/loginpage-maincard-right-inputs.component';
+import { LoginpageMaincardRightBtnComponent } from './loginpage-maincard-right-btn/loginpage-maincard-right-btn.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,14 @@ import { RegisterpageMaincardLeftcoreComponent } from './registerpage-maincard-l
     RegisterpageMaincardRegesterbtnComponent,
     RegisterpageMaincardLeftComponent,
     RegisterpageMaincardRightComponent,
-    RegisterpageMaincardLeftcoreComponent
+    RegisterpageMaincardLeftcoreComponent,
+    LoginpageComponent,
+    LoginpageMaincardComponent,
+    LoginpageMaincardLeftComponent,
+    LoginpageMaincardRightComponent,
+    LoginpageMaincardRightHeadComponent,
+    LoginpageMaincardRightInputsComponent,
+    LoginpageMaincardRightBtnComponent
   ],
   imports: [
     BrowserModule,
