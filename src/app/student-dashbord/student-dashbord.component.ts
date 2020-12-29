@@ -28,6 +28,12 @@ export class StudentDashbordComponent implements OnInit {
   weeklytest4:string=""
 
 
+  public funsubject1={
+
+    
+
+  }
+
 
   ngOnInit(): void {
 
@@ -48,5 +54,6 @@ export class StudentDashbordComponent implements OnInit {
     this.weeklytest4="10"
     
   }
+
 
 }
