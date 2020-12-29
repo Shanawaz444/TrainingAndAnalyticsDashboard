@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registerpage-maincard-imputs.component.css']
 })
 export class RegisterpageMaincardImputsComponent implements OnInit {
+  username = "";
+  password = "";
+  email = "";
+ 
 
   constructor() { }
 
