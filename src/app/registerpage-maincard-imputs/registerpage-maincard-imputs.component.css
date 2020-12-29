@@ -3,7 +3,7 @@
     width: 290px;
     height : 10px;
     padding: 10px;
-    border: 2px solid gray;
+    border: 1px solid gray;
     margin: 0;
     
 }
@@ -12,7 +12,7 @@
     width: 290px;
     height: 10px;
     padding: 10px;
-    border: 2px solid gray;
+    border: 1px solid gray;
     margin: 0;
 }
 .password1
@@ -20,31 +20,55 @@
     width: 290px;
     height: 10px;
     padding: 10px;
-    border: 2px solid gray;
+    border: 1px solid gray;
     margin: 0;
+}
+.retype1
+{
+    width: 290px;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0;
+
 }
 .username
 {
   padding: 20px;
   padding-bottom: 0px;
   padding-top: 5px;
-  margin-bottom: 0px;
   margin: 30px;
+  margin-bottom: 14px;
+
 }
 .password
 {
-  padding-top: 5px;
-  padding-bottom: 0px;
+ 
+ 
   padding: 20px;
+  padding-bottom: 0px;
   margin: 30px;
   margin-top:0px;
+  padding-top: 10px;
+  margin-bottom: 0px;
 }
 .email
 {
   padding: 20px;
-  padding-bottom: 0px;
-  padding-top: 0px;
+  padding-bottom: 7px;
+  padding-top:3px;
   margin: 30px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
+.retype
+{
+    
+  padding: 20px;
+  margin: 30px;
+  margin-top:10px;
+  padding-top: 6px;
+  padding-bottom: 0px;
+}
+
+

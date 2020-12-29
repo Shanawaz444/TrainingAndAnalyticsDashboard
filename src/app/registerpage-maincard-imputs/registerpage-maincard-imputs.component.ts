@@ -9,6 +9,7 @@ export class RegisterpageMaincardImputsComponent implements OnInit {
   username = "";
   password = "";
   email = "";
+  retype = "";
  
 
   constructor() { }
