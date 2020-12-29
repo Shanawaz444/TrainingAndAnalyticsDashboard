@@ -1,12 +1,12 @@
 .heading_element {
-    color: black;
+    color: #212529;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .paragragh_element {
-    color: dimgrey;
+    color: #9EA0A5;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

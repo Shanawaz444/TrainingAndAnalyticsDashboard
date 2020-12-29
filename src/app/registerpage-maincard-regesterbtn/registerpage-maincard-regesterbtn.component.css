@@ -1,0 +1,11 @@
+.register_now_btn {
+    border-radius: 10px;
+    border-style: none;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 290px;
+}
+
+.btn-container {
+    text-align: center;
+}
