@@ -1,0 +1,9 @@
+
+.frnt_img{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    background-color: #1070CA;
+    clip-path: polygon(70% 28%, 100% 0, 100% 100%, 0% 100%);
+}
