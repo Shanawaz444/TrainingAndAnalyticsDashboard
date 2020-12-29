@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "training-and-analytics-dashboard"
+  "defaultProject": "training-and-analytics-dashboard",
+  "cli": {
+    "analytics": "7eae580c-6978-4596-80fe-0949120c7b41"
+  }
 }
