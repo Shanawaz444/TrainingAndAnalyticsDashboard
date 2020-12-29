@@ -11,6 +11,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.paragragh_element:hover {
+    text-decoration: underline;
+}
+
 .heading_title_card {
     text-align: center;
     margin-top: 5px;
