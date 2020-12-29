@@ -1,4 +1,4 @@
-.register_now_btn {
+.register_now_btn1 {
     border-radius: 4px;
     border-style: none;
     background-color: #1665D8;
@@ -6,9 +6,23 @@
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 30px;
-    width: 290px;
+    width: 130px;
+}
+.register_now_btn2 {
+    border-radius: 4px;
+    border-style: none;
+    background-color: #1665D8;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    width: 130px;
 }
 
-.btn-container {
-    text-align: center;
+.btn-container1 {
+    margin-left: 50px;
+}
+.btn-container2 {
+    margin-left: auto;
+    margin-right: 50px;
 }

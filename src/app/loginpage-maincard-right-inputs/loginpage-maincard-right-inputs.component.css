@@ -1,0 +1,32 @@
+.login_username2 {
+    width: 290px;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0;
+}
+
+.login_password2 {
+    width: 290px;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0;
+}
+
+.login_username1 {
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    margin: 30px;
+    margin-bottom: 14px;
+}
+
+.login_password1 {
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 30px;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
